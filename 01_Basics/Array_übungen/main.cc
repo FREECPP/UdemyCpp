@@ -1,12 +1,9 @@
 #include <iostream>
 #include "einsbishundert.h"
-
+#include <string>
 int main()
 {
-    int number;
-    std::cout<<"Geben Sie die Nummer an bis wann das Array erstellt werden soll:";
-    std::cin>>number;
-    einsbisN(number);
+    std::string namen[5] ={"Kathi", "Benni","Mellie","Wolfgang","Jonathan"};
 
 return 0;
 }
